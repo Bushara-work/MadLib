@@ -13,6 +13,8 @@ Advertisment_List = {'first adjective': '', 'first noun': '', 'number': '', 'plu
 Announcment_List = {'first adjective': '', 'first company name': '', 'second company name': '', 'second adjective': '', 'first plural noun': '', 'third adjective': '', 'second plural noun': '', 'verb': '', 'present tense verb': '', 'emotion': ''}
 Advisory_List = {'first noun': '', 'past tense verb': '', 'first adjective': '', 'second noun': '', 'present tense verb': '', 'second adjective': '', 'third noun': '', 'third adjective': '', 'fourth adjective': '', 'name': ''}
 
+user_name = input("What is your name?")
+
 Play_Story = True
 while Play_Story == True:
     #Ask for a story name or random story until an accepted value is retrieved
@@ -73,6 +75,8 @@ while Play_Story == True:
             continue
         elif Continue_Game == 'no':
             Play_Story = False
+            goodbye_message = "Thank you for playing {0}".format(user_name)
+            print(goodbye_message)
             break
         else:
             Play_Story = True
