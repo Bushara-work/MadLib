@@ -21,6 +21,8 @@ Due to an unexpected {noun}, we have {past tense verb} all {first adjective} act
 
 For your safety, avoid {second adjective} {third noun} and remember to end any {third adjective} situations immediately.
 
-Thank you for your cooperation and understanding during this {fourth adjective} time
+Thank you for your cooperation and understanding during this {fourth adjective} time,
+
+{Name)
                      
 
