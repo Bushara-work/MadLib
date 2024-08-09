@@ -53,7 +53,7 @@ while Play_Story == True:
 
         #if the entry if for the company names or name capatalize the first letter of each word
         if word == 'first company name' or word == 'second company name' or word == 'name':
-            BlankSpace_Type[word] = BlankSpace_Type[word].title
+            BlankSpace_Type[word] = BlankSpace_Type[word].title()
         
         #set the value/response as the replacement
         repl = BlankSpace_Type[word]
