@@ -50,6 +50,10 @@ while Play_Story == True:
 
         #ask for needed word, it is the value/response to key/needed word
         BlankSpace_Type[word] = input("Please enter a/an: " + word)
+
+        #if the entry if for the company names or name capatalize the first letter of each word
+        if word == 'first company name' or word == 'second company name' or word == 'name':
+            BlankSpace_Type[word].title
         
         #set the value/response as the replacement
         repl = BlankSpace_Type[word]
