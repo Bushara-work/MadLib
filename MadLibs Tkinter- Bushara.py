@@ -8,13 +8,7 @@ def Story1(win):
             Visit our {Third_Adjective} store, and for a limited time, get a free {Second_Noun} with every purchase. Our {Fourth_Adjective} team is ready to {Second_Verb} you with any questions.
 
             Hurry, this offer ends soon!'''
-        #Advertisment_List = ['first adjective', 'first noun', 'number', 'plural noun', 'second adjective', 'first verb', 'third adjective', 'second noun', 'fourth adjective', 'second verb']
-        '''
-        for word in Advertisment_List:
-            sub = "{" + word + "}"
-            repl = BlankSpace_Type[word]
-            Completed_Story = Completed_Story.replace(sub, BlankSpace_Type[word])
-        '''   
+
 
         tl.geometry(newGeometry='500x720')
 
@@ -196,8 +190,6 @@ Screen = Tk()
 Screen.title("MadLib Game - Bushra")
 Screen.geometry('400x400')
 Screen.config(bg= '#cce6ff')
-
-# Get the width of the window and the label widget
 
 Label(Screen, text="Madlibs Stories:", font = ('Times New Roman', 24, 'bold'), bg = '#cce6ff', fg = '#0e4b58').place(x=200,y = 30, anchor = 'n')
 Story1Button = Button(Screen, text='Final Advertisement Script', font=("Times New Roman", 13), fg = '#0b3c47',command=lambda: Story1(Screen),bg='#d0ccff', activebackground= '#c5c2ff')
