@@ -70,6 +70,7 @@ while Play_Story == True:
     
     while True:
         Continue_Game = input("Do you want to continue playing?")
+        Continue_Game.lower()
         if Continue_Game != 'yes' and Continue_Game != 'no':
             print("Please try again")
             continue
